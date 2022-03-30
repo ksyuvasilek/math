@@ -1,0 +1,27 @@
+.btn {
+    width: 140px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 8px 28px 11px;
+
+    &--theme-white {
+        border: 1px solid #B0B0B0;
+        color: $green;
+        background: #FFFFFF;
+    }
+
+    &--theme-green {
+        color: #FFFFFF;
+        background: $green;
+    }
+
+    &__enter {
+        margin-right: 19px;
+    }
+}

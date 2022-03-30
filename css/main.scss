@@ -1,0 +1,16 @@
+$containerWidth: 1208px;
+$baseFontSize: 16px;
+$black: #525252;
+$green: #689F38;
+$orange: #E6B361;
+
+@import "https://cdnjs.cloudfare.com/ajax/normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+@import "layout";
+
+@import "components/header";
+@import "components/description";
+@import "components/btn";
+@import "components/benefits";

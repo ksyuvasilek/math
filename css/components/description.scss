@@ -1,0 +1,60 @@
+.description__section {
+    background: #E4E4E4;
+}
+
+.description__container {
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner-olympiad {
+    display: flex;
+    justify-content: space-between;
+
+    background: #F2F7F8;
+    border-radius: 16px;
+
+    &__text {
+        margin: 63px 63px 56px 84px;
+    }
+
+    &__info {
+        margin: 29px 0 53px 0;
+        font-size: 20px;
+    }
+
+    &__img {
+        margin: 40px 101px 73px 0;
+    }
+}
+
+.timer-registration {
+    background: url('../../img/description/registration_back.png') no-repeat;
+    background-size: 100% 100%;
+    color: #F3F3F3;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 101px 44px 102px 44px;
+
+    h2 {
+        font-family: 'PT Sans Caption';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 90%;
+    }
+
+    &__text {
+        font-size: 20px;
+        margin: 9px 0 28px 0;
+    }
+
+    &__time {
+        font-family: 'PT Sans Caption';
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 90%;
+    }
+}
