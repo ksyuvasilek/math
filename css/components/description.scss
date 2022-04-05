@@ -1,12 +1,15 @@
-.description__section {
-    background: #E4E4E4;
-}
+.description {
 
-.description__container {
-    padding-top: 29px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    &__section {
+    background: #E4E4E4;
+    }
+
+    &__container {
+        padding-top: 29px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 .banner-olympiad {

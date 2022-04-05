@@ -1,0 +1,49 @@
+.registration {
+
+    &__section {
+        background: #E6B361;
+        padding-top: 29px;
+    }
+
+    &__container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        background: #F2F7F8;
+        border-radius: 16px;
+        padding: 30px 435px 36px 427px;
+    }
+
+    &__blocks {
+        padding: 20px 45px 29px 45px;
+    }
+
+    &__block {
+        padding-top: 11px;
+
+        &-column {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+    }
+
+    &__columns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+        font-weight: 300;
+        padding-left: 6px;
+    }
+
+    &__check-text {
+        font-size: 12px;
+        line-height: 115%;
+        font-weight: 300;
+    }
+}

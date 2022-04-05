@@ -1,0 +1,15 @@
+.steps__section {
+  background: #E6B361;
+  padding-top: 29px;
+}
+.steps__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background: #F2F7F8;
+  border-radius: 16px;
+  padding: 30px 56px 8px 86px;
+}
