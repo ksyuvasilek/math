@@ -1,0 +1,26 @@
+.olympiad {
+    &__section {
+        background: #E4E4E4;
+        padding-top: 29px;
+    }
+
+    &__container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background: #F2F7F8;
+        border-radius: 16px;
+        padding: 30px 299px 49px 330px;
+    }
+
+    &__columns {
+        display: flex;
+        text-align: left;
+    }
+
+    &__condition {
+        margin-right: 64px;
+    }
+
+    &__price {
+    }
+}

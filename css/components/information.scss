@@ -1,0 +1,33 @@
+.information {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+    padding-top: 57px;
+
+    &__section {
+        background: #E4E4E4;
+        padding-top: 29px;
+    }
+
+    &__container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        background: #F2F7F8;
+        border-radius: 16px;
+        padding: 30px 122px 60px 125px;
+    }
+
+    &__columns {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 9px;
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+    }
+}

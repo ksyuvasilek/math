@@ -99,17 +99,19 @@
                     <div class="registration__columns">
                         <div class="registration__block-column">
                             <p class="registration__text">Школа</p>
-                            <select name="" id="" class="input"></select>
+                            <select name="school" id="" class="input"></select>
                         </div>
                         <div class="registration__block-column">
                             <p class="registration__text">Класс</p>
-                            <select name="" id="" class="input"></select>
+                            <select name="class" id="" class="input"></select>
                         </div>
                     </div>
                 </div>
                 <a href="#" class="btn btn--theme-green">Принять участие</a>
-                <input type="radio">
-                <p class="registration__check-text">Даю согласие на обработку моих<br> персональных данных</p>
+                <div class="registration__check">
+                    <input type="radio" name="agreement" class="input__radio">
+                    <p class="registration__check-text">Даю согласие на обработку моих<br> персональных данных</p>
+                </div>
             </div>
         </section>
 
@@ -153,6 +155,11 @@
                     <li class="information__item">
                         <img src="./img/information/clock.png" alt="clock icon">
                         <p>Продолжительность</p>
+                        <div class="information__columns">
+                            <p class="information__text">1-2 класс<br> 1,5 часа</p>
+                            <p class="information__text">3-6 класс<br> 2 часа</p>
+                            <p class="information__text">7-9 класс<br> 2,5 часа</p>
+                        </div>
                     </li>
                     <li class="information__item">
                         <img src="./img/information/trophy.png" alt=" trophy icon">
@@ -164,6 +171,32 @@
                     </li>
                 </ul>
                 <a href="#" class="btn btn--theme-green">Проверить знания на олимпиаде</a>
+            </div>
+        </div>
+
+        <div class="section olympiad__section">
+            <div class="container olympiad__container">
+                <h1 class="olympiad__title">Олимпиада<br> по математике 1-9 класс</h1>
+                <div class="olympiad__columns">
+                    <div class="olympiad__condition">
+                        <h2>Условия проведения</h2>
+                        <p>Олимпиада проводится дистанционно.<br>
+                            Для участия школьникам нужно<br>
+                            пройти электронную регистрацию,<br>
+                            а также в установленные сроки потвердить участие.</p>
+                        <h2>Начнётся через:</h2>
+                        <p>1 день 9 часов по МСК</p>
+                    </div>
+                    <div class="olympiad__price">
+                        <h2>Стоимость</h2>
+                        <p>300 руб</p>
+                        <p>100 руб при репосте в соцсетях:</p>
+                        <div class="social-icons">
+    
+                        </div>
+                        <a href="#" class="btn btn--theme-green">Зарегистрироваться</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

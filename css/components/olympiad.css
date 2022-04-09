@@ -1,0 +1,15 @@
+.olympiad__section {
+  background: #E4E4E4;
+  padding-top: 29px;
+}
+.olympiad__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background: #F2F7F8;
+  border-radius: 16px;
+  padding: 30px 299px 49px 330px;
+}

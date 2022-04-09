@@ -270,8 +270,13 @@ h1 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding-right: 20px;
+}
+.registration__block-column:last-child {
+  padding-right: 0;
 }
 .registration__columns {
+  padding-top: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,19 +289,37 @@ h1 {
   text-align: left;
   font-weight: 300;
   padding-left: 6px;
+  padding-bottom: 3px;
+}
+.registration__check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 22px;
 }
 .registration__check-text {
   font-size: 12px;
   line-height: 115%;
   font-weight: 300;
+  padding-left: 8px;
 }
 
 .input {
   background: #D4DDDF;
   border-radius: 8px;
-  width: 256px;
+  width: 100%;
   height: 28px;
   border: none;
+  margin: 0;
+  padding: 0;
+}
+
+input[type=radio] {
+  margin: 0;
+  padding: 0;
 }
 
 .steps {
@@ -347,4 +370,72 @@ h1 {
   line-height: 20px;
   font-weight: 300;
   padding-top: 12px;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 56px;
+  padding-top: 57px;
+}
+.information__section {
+  background: #E4E4E4;
+  padding-top: 29px;
+}
+.information__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  background: #F2F7F8;
+  border-radius: 16px;
+  padding: 30px 122px 60px 125px;
+}
+.information__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 9px;
+}
+.information__text {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.olympiad__section {
+  background: #E4E4E4;
+  padding-top: 29px;
+}
+.olympiad__container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #F2F7F8;
+  border-radius: 16px;
+  padding: 30px 299px 49px 330px;
+}
+.olympiad__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+}
+.olympiad__condition {
+  margin-right: 64px;
 }

@@ -25,10 +25,16 @@
             display: flex;
             flex-direction: column;
             flex: 1;
+            padding-right: 20px;
+    
+            &:last-child {
+                padding-right: 0;
+            }
         }
     }
 
     &__columns {
+        padding-top: 11px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -39,11 +45,19 @@
         text-align: left;
         font-weight: 300;
         padding-left: 6px;
+        padding-bottom: 3px;
     }
 
-    &__check-text {
-        font-size: 12px;
-        line-height: 115%;
-        font-weight: 300;
+    &__check {
+        display: flex;
+        justify-content: center;
+        padding-top: 22px;
+    
+        &-text {
+            font-size: 12px;
+            line-height: 115%;
+            font-weight: 300;
+            padding-left: 8px;
+        }
     }
 }
