@@ -159,7 +159,7 @@ h3 {
 }
 
 .timer-registration {
-  background: url("../../img/description/registration_back.png") no-repeat;
+  background: url("../../img/description/registration_back.svg") no-repeat;
   background-size: 100% 100%;
   color: #F3F3F3;
   text-align: center;
@@ -402,7 +402,6 @@ input[type=radio] {
   padding-top: 57px;
 }
 .information__section {
-  background: #E4E4E4;
   padding-top: 29px;
 }
 .information__container {
