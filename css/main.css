@@ -159,7 +159,7 @@ h3 {
 }
 
 .timer-registration {
-  background: url("../../img/description/registration_back.svg") no-repeat;
+  background: url("../img/description/registration_back.svg") no-repeat;
   background-size: 100% 100%;
   color: #F3F3F3;
   text-align: center;
@@ -187,7 +187,6 @@ h3 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-  font-family: "PT Sans Caption";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
