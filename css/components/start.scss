@@ -1,0 +1,43 @@
+.start {
+    &__section {
+        background: #525252;
+        padding-top: 29px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        background: #F2F7F8;
+        border-radius: 16px;
+        padding: 62px 220px 73px 220px;
+    }
+
+    &__title {
+        padding-bottom: 23px;
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        padding-top: 8px;
+        padding-bottom: 13px;
+        text-align: center;
+    }
+
+    &__block {
+        padding-bottom: 40px;
+    }
+
+    &__line {
+        border-bottom: 2px solid #B0B0B0;
+        width: 335px;  
+        padding-bottom: 44px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    &__socials {
+        padding-left: 41px;
+        padding-right: 41px;
+    }
+}

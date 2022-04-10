@@ -42,11 +42,15 @@
     height: auto;
     padding: 101px 44px 102px 44px;
 
-    h2 {
-        font-family: 'PT Sans Caption';
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 90%;
+    // h2 {
+    //     font-family: 'PT Sans Caption';
+    //     font-weight: 700;
+    //     font-size: 36px;
+    //     line-height: 90%;
+    // }
+
+    h1 {
+        color: #F3F3F3;
     }
 
     &__text {
