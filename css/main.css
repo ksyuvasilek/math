@@ -205,6 +205,15 @@ h3 {
 .btn__enter {
   margin-right: 19px;
 }
+.btn__up {
+  border: 1px solid #B0B0B0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B0B0B0;
+  width: 85px;
+  height: 24px;
+  padding: 5px 16px 7px 17px;
+}
 
 .benefits {
   display: -webkit-box;
@@ -419,6 +428,11 @@ input[type=radio] {
 .information__text {
   font-weight: 300;
   font-size: 14px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.information__text:not(:last-child) {
+  border-right: 1px solid #B0B0B0;
 }
 
 .olympiad__section {
@@ -542,4 +556,12 @@ input[type=radio] {
 .start__socials {
   padding-left: 41px;
   padding-right: 41px;
+}
+
+.footer__section {
+  text-align: center;
+  background: #525252;
+}
+.footer__up {
+  padding: 35px;
 }

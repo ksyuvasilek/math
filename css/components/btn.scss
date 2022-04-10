@@ -24,4 +24,14 @@
     &__enter {
         margin-right: 19px;
     }
+
+    &__up {
+        border: 1px solid #B0B0B0;
+        font-size: 12px;
+        line-height: 16px;
+        color: #B0B0B0;
+        width: 85px;
+        height: 24px;
+        padding: 5px 16px 7px 17px;
+    }
 }
