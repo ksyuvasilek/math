@@ -1,4 +1,4 @@
 .section__orange {
-  background: -webkit-gradient(linear, left top, left bottom, from(grey), color-stop(#E6B361), to(grey));
-  background: linear-gradient(grey, #E6B361, grey);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #E4E4E4), color-stop(10%, #E6B361), color-stop(60%, #E6B361), color-stop(60%, #E4E4E4));
+  background: linear-gradient(to bottom, #E4E4E4 10%, #E6B361 10%, #E6B361 60%, #E4E4E4 60%);
 }
