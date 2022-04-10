@@ -565,3 +565,65 @@ input[type=radio] {
 .footer__up {
   padding: 35px;
 }
+
+.custom-checkbox {
+  padding-bottom: 12px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox + label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.custom-checkbox + label::before {
+  content: "";
+  margin-bottom: auto;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  border: 1px solid #689F38;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 75% 75%;
+}
+
+.custom-checkbox:checked + label::before {
+  border-color: #689F38;
+  background-color: #F2F7F8;
+  background-image: url("../../img/checkbox.svg");
+}
+
+.custom-checkbox:not(:disabled):not(:checked) + label:hover::before {
+  border-color: #689F38;
+}
+
+.custom-checkbox:not(:disabled):active + label::before {
+  background-color: #F2F7F8;
+  border-color: #689F38;
+}
+
+.custom-checkbox:focus:not(:checked) + label::before {
+  border-color: #689F38;
+}
+
+.custom-checkbox:disabled + label::before {
+  background-color: #F2F7F8;
+}
