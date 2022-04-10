@@ -229,7 +229,8 @@ h3 {
       flex-wrap: wrap;
 }
 .benefits__section {
-  background: #E4E4E4;
+  position: relative;
+  padding-top: 161px;
   padding-top: 29px;
 }
 .benefits__container {
@@ -253,7 +254,6 @@ h3 {
 }
 
 .registration__section {
-  background: #E6B361;
   padding-top: 29px;
 }
 .registration__container {
@@ -353,7 +353,6 @@ input[type=radio] {
           align-items: flex-start;
 }
 .steps__section {
-  background: #E4E4E4;
   padding-top: 29px;
 }
 .steps__container {
@@ -626,4 +625,8 @@ input[type=radio] {
 
 .custom-checkbox:disabled + label::before {
   background-color: #F2F7F8;
+}
+
+.section__orange {
+  background: #E6B361;
 }
