@@ -78,7 +78,7 @@
 .custom-checkbox:checked+label::before {
     border-color: #689F38;
     background-color: #F2F7F8;
-    background-image: url("../../img/checkbox.svg");
+    background-image: url("../img/checkbox.svg");
 }
 
 .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
